@@ -1,0 +1,182 @@
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  padding-left: 0;
+}
+
+header {
+  background-image: url("./images/works/background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  position: relative;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo_link {
+  margin-left: 1.5em;
+}
+nav .strokes_link {
+  margin-right: 1.5em;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.header_text {
+  position: absolute;
+  /* 2 */
+  top: 50%;
+  /* 3 */
+  transform: translate(0, -50%);
+  text-align: center;
+  color: #35d635;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header_text .label {
+  font-family: "Tinos";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+}
+.header_text .text {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+}
+.header_text .button_link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.header_text button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  border: none;
+  background: #FF7400;
+  color: white;
+  margin-bottom: 30px;
+  transition: 0.5s linear color 0.3s, 0.5s linear background-color 0.3s;
+}
+.header_text button:hover, .header_text button:focus {
+  color: orange;
+  background-color: orangered;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+section p {
+  padding-bottom: 0;
+  margin-top: 0;
+}
+section h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section .title {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+section .quote {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+  margin-bottom: 0;
+}
+section .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #656363;
+}
+section .orange {
+  color: orange;
+}
+
+.history {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+.stats {
+  margin: 0 auto;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.stats .card .text_num {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  color: #BC9060;
+}
+.stats .card .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.images-list {
+  list-style-type: none;
+}
+.images-list .list-item {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.images-list .list-item:last-child {
+  margin-bottom: 0;
+}
+
+#contacts .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+#contacts .block {
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=main.css.map */
