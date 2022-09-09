@@ -11,10 +11,10 @@ ul {
 header {
     background-image: url("./images/works/background.jpg");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 100vh;
     width: 100%;
     background-size: cover;
-    
+    background-position: bottom;
     position: relative;
 
 }
@@ -30,6 +30,9 @@ nav {
         margin-left: 1.5em;
     }
 
+    .three_strokes{
+        display: none;
+    }
     .strokes_link {
         margin-right: 1.5em;
     }
@@ -244,6 +247,18 @@ section {
     }
 }
 
+.container
+{
+    justify-content: center;
+    text-align: center;
+}
+
+.colored
+{
+    color: orchid;
+}
+
+
 
 @media screen and (min-width:720px) {
     .header_text {
@@ -284,3 +299,4 @@ section {
         margin-bottom: 0;
     }
 }
+

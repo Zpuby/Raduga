@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav>
-            <a class="logo_link" href="#">
+            <a class="logo_link" href="#gallery">
                 <div class="logo">
                     <img src="./images/rainbow.ico" alt="logo">
                 </div>
@@ -39,7 +39,7 @@
     </header>
     <main>
         <section>
-            <div class="history">
+            <div class="history" id="about">
                 <h2 class="title">Наша <p class="title orange">История</p>
                 </h2>
                 <p class="quote">"Наша цель - развивать и развлекать детей. И с этой целью мы справляемся"</p>
@@ -60,7 +60,7 @@
         </section>
 
         <section>
-            <h2 class="title">Галерея <p class="title orange">Работ</p>
+            <h2 id="gallery" class="title">Галерея <p class="title orange">Работ</p>
             </h2>
 
             <div class="images">
@@ -110,9 +110,11 @@
                     <img class="image" src="images/works/8.jpg" alt="" width="240px" height="240px">
                 </div>
                 <div class="block">
-                    <img class="image" src="images/works/9.jpg" alt="" width="240px" height="300px">
-                    <img class="image" src="images/works/10.jpg" alt="" width="240px" height="240px">
+                    <img class="image" src="images/works/9.jpg" alt="" width="240px" height="360px">
+                    <img class="image" src="images/works/10.jpg" alt="" width="240px" height="360px">
                 </div>
+
+
                 <div class="block">
                     <video class="video" src="./images/video/1.mp4" autoplay muted loop width="250px"></video>
                 </div>
@@ -126,6 +128,18 @@
                 <a href="tel:+79497101683">
                     <p class="text">+7(949)-71-01-683</p>
                 </a>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="title">Наши <p class="title orange">Занятия</p>
+            </h2>
+            <div class="container">
+                <ul class="works-list">
+                    <li class="list-item">Развивалка <span class="colored">(от 4 до 6 лет)</span></li>
+                    <li class="list-item">ИЗО <span class="colored">(от 7 до 14 лет)</span></li>
+                    <li class="list-item">Прикладное искусство <span class="colored">(от 4 до 14 лет)</span></li>
+                </ul>
             </div>
         </section>
     </main>
